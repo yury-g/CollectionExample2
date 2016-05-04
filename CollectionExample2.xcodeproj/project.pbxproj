@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E864CF601CDA4ACA00A03110 /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E864CF5F1CDA4ACA00A03110 /* MyData.swift */; };
 		E87E68711CDA3AFA0017705B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87E68701CDA3AFA0017705B /* AppDelegate.swift */; };
 		E87E68731CDA3AFA0017705B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87E68721CDA3AFA0017705B /* ViewController.swift */; };
 		E87E68761CDA3AFA0017705B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87E68741CDA3AFA0017705B /* Main.storyboard */; };
 		E87E68781CDA3AFA0017705B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E87E68771CDA3AFA0017705B /* Assets.xcassets */; };
 		E87E687B1CDA3AFA0017705B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87E68791CDA3AFA0017705B /* LaunchScreen.storyboard */; };
+		E87E68831CDA473B0017705B /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87E68821CDA473B0017705B /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E864CF5F1CDA4ACA00A03110 /* MyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
 		E87E686D1CDA3AFA0017705B /* CollectionExample2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionExample2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E87E68701CDA3AFA0017705B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E87E68721CDA3AFA0017705B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		E87E68771CDA3AFA0017705B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E87E687A1CDA3AFA0017705B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E87E687C1CDA3AFA0017705B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E87E68821CDA473B0017705B /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				E87E68701CDA3AFA0017705B /* AppDelegate.swift */,
 				E87E68721CDA3AFA0017705B /* ViewController.swift */,
+				E87E68821CDA473B0017705B /* MyCollectionViewCell.swift */,
 				E87E68741CDA3AFA0017705B /* Main.storyboard */,
+				E864CF5F1CDA4ACA00A03110 /* MyData.swift */,
 				E87E68771CDA3AFA0017705B /* Assets.xcassets */,
 				E87E68791CDA3AFA0017705B /* LaunchScreen.storyboard */,
 				E87E687C1CDA3AFA0017705B /* Info.plist */,
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					E87E686C1CDA3AFA0017705B = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 58XU3V35UK;
 					};
 				};
 			};
@@ -137,6 +144,8 @@
 			files = (
 				E87E68731CDA3AFA0017705B /* ViewController.swift in Sources */,
 				E87E68711CDA3AFA0017705B /* AppDelegate.swift in Sources */,
+				E87E68831CDA473B0017705B /* MyCollectionViewCell.swift in Sources */,
+				E864CF601CDA4ACA00A03110 /* MyData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,10 +260,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CollectionExample2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yg.CollectionExample2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -262,10 +274,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CollectionExample2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yg.CollectionExample2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -288,6 +303,7 @@
 				E87E68811CDA3AFA0017705B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
