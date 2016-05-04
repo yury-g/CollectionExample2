@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E864CF601CDA4ACA00A03110 /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E864CF5F1CDA4ACA00A03110 /* MyData.swift */; };
-		E864CF621CDA6E0100A03110 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E864CF611CDA6E0100A03110 /* README.md */; };
+		E864CF641CDA704F00A03110 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E864CF631CDA704F00A03110 /* README.md */; };
 		E87E68711CDA3AFA0017705B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87E68701CDA3AFA0017705B /* AppDelegate.swift */; };
 		E87E68731CDA3AFA0017705B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87E68721CDA3AFA0017705B /* ViewController.swift */; };
 		E87E68761CDA3AFA0017705B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E87E68741CDA3AFA0017705B /* Main.storyboard */; };
@@ -19,7 +19,7 @@
 
 /* Begin PBXFileReference section */
 		E864CF5F1CDA4ACA00A03110 /* MyData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
-		E864CF611CDA6E0100A03110 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = CollectionExample2/README.md; sourceTree = "<group>"; };
+		E864CF631CDA704F00A03110 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E87E686D1CDA3AFA0017705B /* CollectionExample2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionExample2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E87E68701CDA3AFA0017705B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E87E68721CDA3AFA0017705B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		E87E68641CDA3AFA0017705B = {
 			isa = PBXGroup;
 			children = (
-				E864CF611CDA6E0100A03110 /* README.md */,
+				E864CF631CDA704F00A03110 /* README.md */,
 				E87E686F1CDA3AFA0017705B /* CollectionExample2 */,
 				E87E686E1CDA3AFA0017705B /* Products */,
 			);
@@ -147,7 +147,7 @@
 			files = (
 				E87E68731CDA3AFA0017705B /* ViewController.swift in Sources */,
 				E87E68711CDA3AFA0017705B /* AppDelegate.swift in Sources */,
-				E864CF621CDA6E0100A03110 /* README.md in Sources */,
+				E864CF641CDA704F00A03110 /* README.md in Sources */,
 				E87E68831CDA473B0017705B /* MyCollectionViewCell.swift in Sources */,
 				E864CF601CDA4ACA00A03110 /* MyData.swift in Sources */,
 			);
