@@ -106,6 +106,7 @@
 					E87E686C1CDA3AFA0017705B = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 58XU3V35UK;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -271,6 +272,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yg.CollectionExample2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -285,6 +287,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = yg.CollectionExample2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
